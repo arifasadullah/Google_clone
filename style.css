@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* header style start */
+.header_main {
+  display: flex;
+  justify-content: end;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.header_main a {
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  text-decoration: none;
+}
+.header_main a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between;
+}
+
+.header .material-icons {
+  cursor: pointer;
+}
+.header .header_apps {
+  margin-right: 10px;
+}
+
+/* header style End */
+
+/* main body starts */
+.main_body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.main_body img {
+  object-fit: contain;
+  height: 100px;
+}
+
+.search_input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 560px;
+}
+.search_input:hover {
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.15);
+}
+.search_input input {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+.search_input .material-icons {
+  color: gray;
+}
+
+.search_buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.search_buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search_buttons button:hover {
+  border: 0.5px solid lightgrey;
+}
+
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lang p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+.lang a {
+  margin: 5px;
+  text-decoration: inherit;
+}
+.lang a:hover {
+  text-decoration: underline;
+}
+
+/* main body End */
+/* hr {
+  border: 0.1px solid #a5a7a8;
+  color: #a5a7a8;
+} */
+.location {
+  border-bottom: 0.1px solid #d6dadb;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  color: #70757a;
+  text-decoration: none;
+  margin: 0px 0px 0px 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px 15px 25px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+.footer a {
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  color: #70757a;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
